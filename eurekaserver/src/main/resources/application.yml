@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: bootcamp-eureka-server
+server:
+  port: 8761
+eureka:
+  # Impedimos que Eureka se registre a sí misma
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
